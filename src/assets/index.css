@@ -1,0 +1,346 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#app{
+  position: relative;
+}
+.nav{
+  position: fixed;
+  top:0;
+  z-index: 1;
+  height: 70px;
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 5px 5px rgba(0,0,0,.02);
+  padding: 0 10px;
+}
+.nav img{
+  width: 120px;
+}
+.nav div{
+  height: 63px;
+  margin-top: 20px;
+  float: left;
+}
+.nav span{
+  float: right;
+  display: block;
+  width: 80px;
+  padding: 1px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.top{
+  width: 100%;
+  margin-top: 90px;
+}
+.top li{
+  width: 33%;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: rgba(0,0,0,.6);
+  float: left;
+}
+.top .green{
+  border-bottom: 1px solid green;
+  color: green;
+}
+.main img{
+  width: 100%;
+}
+.one{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 24px;
+}
+.ul1{
+  overflow: hidden;
+}
+.ul1 li{
+  float: left;
+  width: 40%;
+  /*margin: 10px 15px;*/
+  margin-left: 25px;
+  margin-top: 10px;
+  /*padding:  0 50px;*/
+}
+.ul1 li img{
+  width: 100%;
+}
+.ul1 li p{
+  font-size: 16px;
+}
+.two{
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 24px;
+}
+.ul2{
+  /*padding-bottom: 40px;*/
+  overflow: hidden;
+}
+.ul2 li{
+  float: left;
+  width: 40%;
+  height: 220px;
+  margin-left: 25px;
+  margin-top: 10px;
+  /*padding:  0 50px;*/
+}
+.ul2 li img{
+  width: 100%;
+}
+.ul2 li p{
+  font-size: 14px;
+}
+.ul2 li span{
+  width: 150px;
+  font-size: 14px;
+  color: #999;
+}
+.three{
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 26px;
+}
+.foot{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.foot img{
+  width: 120px;
+}
+.foot1{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.foot2{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  padding-bottom: 100px;
+}
+.dibu{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 50px;
+  background: rgba(0,0,0,0.3);
+  bottom: 0;
+}
+.foot3{
+  height: 30px;
+  width: 80%;
+  margin: 10px auto;
+  background: yellowgreen;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 30px;
+}
+.bang{
+  width: 100%;
+  overflow: hidden;
+}
+.bang1{
+  margin-top: 25px;
+  overflow: hidden;
+  position: relative;
+}
+.bang1 div{
+  float: left;
+  margin-left: 20px;
+}
+.bang1 div img{
+  width: 100px;
+  height: 100px;
+}
+.bang1 .div1{
+  position: absolute;
+  left: 120px;
+}
+.bang1 .div1 p{
+  font-size: 16px;
+}
+.bang1 .div1 li{
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.bang1 .div1 li span{
+  color: #ccc;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.music{
+  position: relative;
+  width: 100%;
+  background: #dddddd;
+  height: 60px;
+  margin-top: 52px;
+  overflow: hidden;
+}
+/*.music div{*/
+  /*!*position: relative;*!*/
+/*}*/
+.music input{
+  display: block;
+  border: none;
+  /*width: 80%;*/
+  height: 40px;
+  /*margin: 0 auto;*/
+  margin-left: 15px;
+  margin-top: 10px;
+  outline: none;
+  padding-left: 10px;
+  font-size: 16px;
+  float: left;
+  border-radius: 5px;
+}
+.music .aaa{
+  position: absolute;
+  bottom: 35%;
+  right: 60px;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  margin-top: -18px;
+  color: white;
+  display: block;
+  width: 18px;
+  height:18px;
+  border-radius: 50%;
+  background: #999;
+}
+.music .qqq{
+  float: left;
+  color: #333;
+  font-size: 16px;
+  line-height: 60px;
+  margin-left: 10px;
+}
+.music-p{
+  margin-left: 20px;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.music-ul{
+  overflow: hidden;
+}
+.music-ul .music-li{
+  float: left;
+  padding: 10px 20px;
+  font-size: 12px;
+  border: 1px solid #999;
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.music-ul .music-li:nth-child(1){
+  border: 1px solid orangered;
+}
+.music-span{
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -170px;
+  display: block;
+  width:375px;
+  height: 60px;
+  background: green;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 24px;
+  color: #FFFFFF;
+  line-height: 60px;
+}
+.music-ul1 li{
+   width: 100%;
+   height: 55px;
+   border-bottom:1px solid #ddd;
+ }
+.music-ul1 li em{
+  display: block;
+  width: 22px;
+  height:20px;
+  margin-top: 17.5px;
+  margin-left: 15px;
+  /*background: red;*/
+  float: left;
+}
+.music-ul1 li em img{
+  width: 22px;
+  height:20px;
+}
+.music-ul1 li div{
+  float: left;
+  margin-left: 10px;
+}
+.music-ul1 li .p-1{
+  margin-top: 10px;
+  font-size: 16px;
+}
+.music-ul1 li .p-2{
+  /*margin-top: 5px;*/
+  font-size: 14px;
+  color: #999;
+}
+.music-ul1 .max{
+  text-align: center;
+  border: none;
+  color: #999;
+  margin-top: 10px;
+}
+.music-ul2 li{
+  width: 100%;
+  height: 55px;
+  border-bottom:1px solid #ddd;
+}
+.music-ul2 li img{
+  float: left;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.music-ul2 li .p-2{
+  /*margin-top: 5px;*/
+  float: left;
+  margin-left: 15px;
+}
+.music-ul2 li span{
+  font-size: 20px;
+  line-height: 18px;
+  text-align: center;
+  margin-top: 14px;
+  color: white;
+  display: block;
+  float: right;
+  margin-right: 30px;
+  width: 25px;
+  height:25px;
+  border-radius: 50%;
+  background: #999;
+}
+.music-ul2 .max{
+  text-align: center;
+  border: none;
+  margin-top: 10px;
+}
